@@ -1,0 +1,41 @@
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.App {
+  background-color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+@media only screen and (max-width: 992px) {
+
+  .App {
+   
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+}
